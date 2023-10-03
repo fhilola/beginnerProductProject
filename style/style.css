@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navbar-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-wrapper > h1{
+    flex-grow: 1;
+}
+.navbar-wrapper h1 > a{
+    color: #000000;
+    text-decoration: none;
+    font-family: Dancing Script;
+    font-size: 50px;
+}
+.navbar-wrapper > div, .icon-wrapper, .navbar-menu{
+    display: flex;
+    align-items: center;
+    gap: 0 50px;
+    list-style: none;
+}
+.navbar-wrapper > div input{
+    border-radius: 10px;
+    height: 30px;
+    font-size: 18px;
+    text-indent: 10px;
+}
+.icon-wrapper i{
+    font-size: 30px;
+}
+.navbar-menu #nav-link{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.products-wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.product-div{
+    max-width: 300px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+.product-div > img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.product-div > h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.product-div > button{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+button{
+    transition: .3s;
+}
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    transform: scale(.9);
+}
+.action-wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.action-wrapper > button{
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.action-wrapper > strong{
+    font-family: sans-serif;
+}
+.about-book{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding-top: 5px;
+}

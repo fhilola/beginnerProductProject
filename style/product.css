@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navbar-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-wrapper > h1{
+    flex-grow: 1;
+}
+.navbar-wrapper h1 > a{
+    color: #000000;
+    text-decoration: none;
+    font-family: Dancing Script;
+    font-size: 50px;
+}
+.navbar-wrapper > div, .icon-wrapper, .navbar-menu{
+    display: flex;
+    align-items: center;
+    gap: 0 50px;
+    list-style: none;
+}
+.icon-wrapper i{
+    font-size: 30px;
+}
+.navbar-menu #nav-link{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.single-product-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 0 50px;
+    max-width: 100%;
+    margin-top: 50px;
+}
+.product-img{
+    max-width: 50%;
+    height: 500px;
+}
+.product-img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.product-price{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.product-description{
+    color: gray;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
